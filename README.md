@@ -1,5 +1,5 @@
-# Spring-Rest-Api-All-Operations
-
+## Rest Api All Operations
+I developed a component that lists the operations in API.
 
 
     @Component
