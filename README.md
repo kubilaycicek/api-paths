@@ -41,7 +41,7 @@ I developed a component that lists the operations in API.
     }
 
 ## Result 
-    ```
+   
         [
             {
                 "url": "/products/addProduct",
@@ -91,5 +91,4 @@ I developed a component that lists the operations in API.
                 "className": "com.kubilaycicek.product.rest.ApiController",
                 "type": "GET"
                }
-    ] 
-    ```
+    ]
