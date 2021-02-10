@@ -1,8 +1,9 @@
 # Spring-Rest-Api-All-Operations
 
 
-Component
-public class AppPathComponent {
+
+    @Component
+    public class AppPathComponent {
 
     @Autowired
     WebApplicationContext applicationContext;
