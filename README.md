@@ -39,3 +39,57 @@ I developed a component that lists the operations in API.
         }
         return operations;
     }
+
+## Result 
+    ```
+        [
+            {
+                "url": "/products/addProduct",
+                "method": "addProduct",
+                "className": "com.kubilaycicek.product.rest.ProductController",
+                "type": "POST"
+            },
+            {
+                "url": "/products/updateProduct/{id}",
+                "method": "updateProduct",
+                "className": "com.kubilaycicek.product.rest.ProductController",
+                "type": "PUT"
+            },
+            {
+                "url": "/error",
+                "method": "error",
+                "className": "org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController",
+                "type": ""
+            },
+            {
+                "url": "/products/product/{id}",
+                 "method": "getProduct",
+                 "className": "com.kubilaycicek.product.rest.ProductController",
+                 "type": "GET"
+            },
+            {
+                "url": "/products/list",
+                "method": "getList",
+                "className": "com.kubilaycicek.product.rest.ProductController",
+                "type": "GET"
+             },
+             {
+                "url": "/error",
+                "method": "errorHtml",
+                "className": "org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController",
+                "type": ""
+             },
+             {
+                "url": "/products/product/delete/{id}",
+                "method": "deleteProduct",
+                "className": "com.kubilaycicek.product.rest.ProductController",
+                "type": "DELETE"
+              },
+              {
+                "url": "/getAllApiPaths",
+                "method": "getAllApiPaths",
+                "className": "com.kubilaycicek.product.rest.ApiController",
+                "type": "GET"
+               }
+    ] 
+    ```
